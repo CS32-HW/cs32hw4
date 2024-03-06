@@ -1,0 +1,7 @@
+==========
+problem 1e
+==========
+
+In test case three, the vector has 5 items added on the third iteration of the
+loop, invalidating the iterator p. This is because the underlying array is
+copied over to a larger one and the original one is deallocated.
