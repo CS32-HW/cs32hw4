@@ -35,3 +35,17 @@ problem 5b
 
 The time complexity is still O(N^3). Although the coefficient in front of the
 N^3 might have been reduced, the number of operations still scales by N^3.
+
+==========
+problem 6a
+==========
+
+The time complexity is O(N^2) because getting and inserting a value into a
+linked list are linear operations, which gets executed N times, making it N^2.
+
+==========
+problem 6b
+==========
+
+The time complexity is O(N) and it is better than the implementation in part a
+because it only traverses through the linked list once.
