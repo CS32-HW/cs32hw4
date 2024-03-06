@@ -13,3 +13,12 @@ problem 3
 The call to Map<Coord, int>::insert causes a compilation error because the
 method makes use of the == operator and the < operator, which were not defined
 for the Coord class.
+
+==========
+problem 4b
+==========
+
+If the function had only one parameter, it would be unable to know what the
+names of the previous domains were. It would only have the name of the current
+domain and a vector of its subdomains, but not the path taken to get to the
+current domain.
